@@ -6,7 +6,7 @@ function dataExemplo() {
 
   //  0  1  2   3   4   5   6  7  8  9  Posição
 
-  if (dt.length < 10) {
+  if (dt.length < 10 || dt.length > 10) {
     alert("Você deve inserir a data completa");
   } else {
     var dia = dt.substring(0, 2);
