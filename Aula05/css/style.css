@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  border: 0;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+table {
+  width: 50%;
+  font-family: arial;
+  font-size: 10pt;
+}
+.primeiro {
+  background-color: black;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.segundo td {
+  font-family: Verdana;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid darkred;
+}
