@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#saida {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 5px 10px gray;
+  margin: 10px auto;
+}
+h2 {
+  text-align: center;
+  border-bottom: 1px black solid;
+}
+img {
+  width: 100%;
+}
