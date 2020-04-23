@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="caixa">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non provident
+      maxime, quae repellat sunt accusamus distinctio voluptas eligendi!
+      Voluptate deserunt accusamus praesentium asperiores dignissimos doloribus
+      non laudantium iusto, dolorum esse!
+    </div>
+
+    <button id="btn">Esconder</button>
+    <button id="btn2">Mostrar</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+      /*
+        Para utilizar o JQuery é necessário o uso do 
+        caracter $ no inicio de qualquer ação com as 
+        funções. O comando $(document).ready nos diz
+        que quando o documento estiver pronto será 
+        disparada uma função. O corpo dessa função 
+        analisa o momento em que o botão btn é clicado
+        $("#btn").click , então é disparado uma nova
+        função para alterar a visualização da caixa.
+        Na caixa foi aplicado um efeito hide()
+        */
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          $("#caixa").hide(1000); //Esconder a caixa em 1s
+        });
+
+        $("#btn2").click(function () {
+          $("#caixa").show(1000); //Mostar a caixa em 1s
+        });
+      });
+    </script>
+  </body>
+</html>

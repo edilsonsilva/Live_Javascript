@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#saida1,
+#saida2 {
+  width: 40%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid darkred;
+}
+#saida1 {
+  background-color: darkseagreen;
+}
+#saida2 {
+  background-color: indianred;
+}

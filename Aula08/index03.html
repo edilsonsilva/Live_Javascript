@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="#" id="acao"> Manipular a Imagem</a>
+    <div id="foto"><img src="img/foto1.jpg" alt="Moça no deserto" /></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#acao").click(function () {
+          $("#foto").animate(
+            {
+              opacity: "0.2",
+              width: "400px",
+              height: "300px",
+            },
+            2000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
